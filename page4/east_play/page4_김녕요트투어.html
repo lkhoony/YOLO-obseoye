@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>YOLO옵서예</title>
+    <style>
+      body{
+        width: 1000px;
+        margin: 0px auto;
+        background-color: white;
+      }
+      #page-wrapper{
+        position: absolute;
+        background: white;
+        margin: 20px auto;
+        border-radius: 5px;
+        width: 1000px;
+      }
+    #first_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:100px;
+      z-index: 3;
+    }
+    #second_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:500px;
+      z-index: 3;
+    }
+    #mid_img{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 200px; left:393px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-radius: 100px;
+      border: 6px solid white;
+      z-index: 50;
+    }
+    .설명{
+      margin: 20px auto;
+      padding: 20px;
+      width:860px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      }
+    .가게이름{
+      text-align: center;
+    }
+    .review{
+      display: inline-block;
+      margin:0 15px;
+
+    }
+    .image-title{
+      text-align: center;
+    }
+    #images{
+      width:900px;
+      height:540px;
+      margin: 30px auto;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-top: 3px solid orange;
+      border-bottom: 3px solid orange;
+      border-radius: 10px;
+    }
+    #title{
+      position: relative;
+      width: 800px;
+      height: 100px;
+      top: 370px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #url{
+      text-align: center;
+      z-index: 100;
+      padding:
+    }
+    #insta_img, #map_img{
+      width:30px;
+      height:30px;
+    }
+    .img-text{
+      margin-top: -5px;
+      font-size: 12px;
+      color: orange;
+      font-weight: 600;
+    }
+    #title-header{
+      padding-bottom: 10px;
+    }
+
+    #second-title-header{
+      padding-bottom: 10px;
+      margin-top:-20px;
+    }
+    i{
+      width:16px;
+      height: 16px;
+      margin-right: 20px;
+    }
+    .explain{
+      margin: 30px 50px;
+    }
+    .menu-name{
+      width: 330px;
+    }
+    .bar div{
+      width: 300px;
+      height:0.5px;
+      border-top:0.7px dotted rgba(0,0,0,0.5);
+      vertical-align: 10%;
+    }
+    .price{
+      width:200px;
+      padding-left: 20px;
+    }
+    #main-footer{
+      border-top: 2px solid orange;
+      margin: 20px;
+      padding-top: 30px;
+      text-align: center;
+    }
+    #title-header{
+      font-family: 'Gugi';
+      font-size: 28px;
+      color: #686868;
+    }
+    #second-title-header{
+      font-family: 'Nanum Pen Script';
+      font-size: 18px;
+    }
+    .explain{
+      font-family: 'Cute Font';
+      font-size: 22px;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <div id="images">
+        <img id="first_img" src="./east/김녕요트투어.jpg" alt="frist img" width="450px" height="250px">
+        <img id="second_img" src="./east/김녕요트투어4_1.jpg" alt="second img" width="450px" height="250px">
+        <img id="mid_img" src="./east/김녕요트투어4_2.jpg" alt="mid img" width="200px" height="200px">
+        <div id="title">
+          <h2  id="title-header">김녕요트투어</h2>
+          <p id="second-title-header">#제주도 #김녕요트투어 #요트 #해양레저</p>
+          <div id="url">
+            <div class="review">
+              <a href="https://www.instagram.com/explore/tags/김녕요트투어/">
+              <img id="insta_img"  src="../instagram.jpg" alt="insta.img" ></a>
+              <p class="img-text">insta</p>
+            </div>
+            <div class="review">
+              <a href="https://map.naver.com/?eText=%EA%B9%80%EB%85%95%EC%9A%94%ED%8A%B8%ED%88%AC%EC%96%B4&elng=b3fa03742ccf818f56dd33f285723edd33c94c51feff719960b615c911e76e43&eelat=8117520f1e59a8459d047ffef1f0cbdb&elat=0bdf5f7a7be1176d2984e22633e8d6fa&eelng=7276a31b9107c70499cf960c7cd99cee">
+              <img id="map_img"  src="../map.jpg" alt="map.img" ></a>
+              <p class="img-text">map</p>
+            </div>
+         </div>
+       </div>
+      </div>
+
+      <div class="설명">
+        <div class="explain"><i class="far fa-clock"></i>
+          <div style="width: 700px;margin-left:36px; margin-top:-20px;">
+            평일 09:00 - 18:00 | 일몰시까지 운항<br>
+            주말 09:00 - 18:00 | 일몰시까지 운항 </div></div>
+          <div class="explain"><i class="fas fa-phone"></i>064-784-9030</div>
+          <div class="explain"><i class="far fa-file-alt"></i>
+            <div style="width: 700px;margin-left:36px; margin-top:-20px;">
+              180일중 123회 관찰 가능한 남방돌고래서식지 <br>
+              김녕 앞바다에서 돌고래를 만날수 있는 생태체험의 기회와, <br>
+              세일요트에서 바람을 느끼는 세일링체험, <br>
+              에메랄드 빛 바다와 해상풍차 마을을 배경으로 설렘 가득한 요트투어를 즐겨 보세요 !
+           </div></div>
+           <div class="explain"><i class="fas fa-search-dollar"></i>
+             <table style="margin-left:36px; margin-top:-20px;">
+               <tr>
+                 <td class="menu-name">성인</td>
+                 <td class="bar"><div></div></td>
+                 <td class="price">60000원</td>
+               </tr>
+               <tr>
+                 <td class="menu-name">청소년/소아</td>
+                 <td class="bar"><div></div></td>
+                 <td class="price">40000원</td>
+               </tr>
+             </table>
+             </div>
+            <div class="explain"><i class="fas fa-home"></i>
+              <a href="http://www.gnytour.com/">http://www.gnytour.com/</a></div>
+          <div class="explain"><i class="fas fa-map-marked-alt"></i>
+                제주 제주시 구좌읍 구좌해안로 229-16 [지번]김녕리 4212-1</div>
+      </div>
+      <footer id="main-footer">
+
+        <div class="jeju-sns">
+          <!-- <div class="sns">제주도 공식 SNS</div> -->
+          <img src="jeju_insta.png" alt="" onclick=location.href='https://www.instagram.com/special_jejudo/'>
+          <img src="jeju_post.png" alt="" onclick=location.href='https://post.naver.com/my.nhn?memberNo=23264882'>
+          <img src="jeju_youtube.png" alt="" onclick=location.href='https://www.youtube.com/user/happyjejudo/video'>
+        </div>
+        <a href="#">back to top</a>
+
+      </footer>
+    </div>
+  </body>
+</html>

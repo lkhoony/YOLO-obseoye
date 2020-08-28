@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<head>
+  <!-- 2page에서는 동부, 서부, 남부, 북부의 html파일이 총 4개이며 각 페이지에서 먹거리, 놀거리, 볼거리의 베스트4의 정보를 확인가능-->
+
+  <title>YOLO 옵서예</title>
+
+  <link rel="stylesheet" href="2page.css">
+  <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sunflower:300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+
+  </head>
+  <!-- 웹 폰트 사용을 위해 스타일시트를 불러온다. -->
+
+  <body>
+  <div id="page-wrapper">
+    <!-- 페이지 전체를 감싸는 태그 -->
+    <header id="main-header">
+      <hgroup>
+        <!-- 헤더의 내용들이 들어갈 태그 -->
+        <h1 class="font_center">제주도 동부 여행주간</h1>
+        <div class="second-title">
+          #조천읍 #구좌읍 #성산읍
+        </div>
+      </hgroup>
+
+      <nav id="main-navigation">
+        <!-- 메인내비게이션 -->
+        <div>
+          <div class="search-bar">
+            <!-- 검색어를 입력받을 div -->
+            <form>
+              <!-- form태그로 구현하여 사용자로 하여금 검색어를 입력받는다. -->
+              <div id="search"><img id="search-ill" src="search.png"/></div>
+              <input type="text" class="input-search"/>
+
+            </form>
+
+          </div>
+        </div>
+        <div class="navigation">
+          <!-- 각 구역으로 넘어갈 수 있는 메뉴를 만든다. -->
+          <ul class="outer-menu">
+            <li class="outer-menu-item">
+              <span class="menu-title" id="selecte-cate"><a href="../page2/2PAGE_east_eat.html" class="active">제주도 동부</a></span>
+
+            </li>
+            <li class="outer-menu-item">
+              <span class="menu-title"><a href="../page2/2PAGE_west_eat.html">제주도 서부</a></span>
+
+            </li>
+            <li class="outer-menu-item">
+              <span class="menu-title"><a href="../page2/2PAGE_south_eat.html">제주도 남부</a></span>
+
+            </li>
+            <li class="outer-menu-item">
+              <span class="menu-title"><a href="../page2/2PAGE_north_eat.html">제주도 북부</a></span>
+
+            </li>
+          </ul>
+        </div>
+        <div class="inner-menu">
+          <!-- 1페이지와 마찬가지로 검색어를 입력받는 곳이 포커스되면 보여지는 테이블-->
+          <table id="user-table">
+              <thead>
+                  <tr>
+                      <th>번호</th>
+                      <th>이름</th>
+                      <th>지역</th>
+                      <th>분류</th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a href="../page4/east_eat/page4_명진전복.html">명진전복</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="../page4/east_eat/page4_가시아방국수.html">가시아방</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="../page4/east_eat/page4_평대스낵.html">평대스낵</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="../page4/east_eat/page4_상춘재.html">상춘재</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="../page4/east_eat/page4_코코마마.html">코코마마</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="../page4/east_eat/page4_하하호호.html">하하호호버거</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="../page4/east_eat/page4_2093하우스.html">2093하우스</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="../page4/east_eat/page4_숨어있는집.html">숨어있는집</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr><tr>
+                    <td>9</td>
+                    <td><a href="../page4/east_eat/page4_교래손칼국수.html">교래손칼국수</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="../page4/east_eat/page4_고래라면.html">고래라면</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td><a href="../page4/east_eat/page4_카페공작소.html">카페공작소</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td><a href="../page4/east_eat/page4_바보카페.html">바보카페</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr><tr>
+                    <td>13</td>
+                    <td><a href="../page4/east_eat/page4_경미네집.html">경미네집(경미휴게소)</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td><a href="../page4/east_eat/page4_어부피자.html">어부피자</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td><a href="../page4/east_eat/page4_구좌상회.html">구좌상회</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td><a href="../page4/east_eat/page4_쉬림프박스.html">쉬림프박스</a></td>
+
+                    <td>동부</td>
+                    <td>먹거리</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td><a href="../page4/east_play/page4_메이즈랜드.html">메이즈랜드</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td><a href="../page4/east_play/page4_레일바이크.html">레일바이크</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td><a href="../page4/east_play/page4_감귤체험농원.html">감귤체험농원</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td><a href="../page4/east_play/page4_쇠와꽃승마장.html">쇠와꽃승마장</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td><a href="../page4/east_play/page4_제주키위비자림농원.html">제주키위비자림농원</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td><a href="../page4/east_play/page4_짚라인제주.html">짚라인제주</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td><a href="../page4/east_play/page4_귤빛캠핑장.html">귤빛캠핑장</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td><a href="../page4/east_play/page4_로로요가.html">로로요가</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td><a href="../page4/east_play/page4_우도잠수함.html">우도잠수함</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td><a href="../page4/east_play/page4_월정리카약.html">월정리카약</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td><a href="../page4/east_play/page4_김녕요트투어.html">김녕요트투어</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td><a href="../page4/east_play/page4_제주바다체험장.html">제주바다체험장</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td><a href="../page4/east_play/page4_노을승마장.html">노을승마장</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td><a href="../page4/east_play/page4_모구리야영장.html">모구리야영장</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td><a href="../page4/east_play/page4_우도올레보트.html">우도올레보트</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+
+                <tr>
+                    <td>32</td>
+                    <td><a href="../page4/east_play/page4_베니스랜드.html">베니스랜드</a></td>
+
+                    <td>동부</td>
+                    <td>놀거리</td>
+                </tr>
+                <tr>
+                    <td>33</td>
+                    <td><a href="../page4/east_see/page4_에코랜드.html">에코랜드 테마파크</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td><a href="../page4/east_see/page4_선녀와나무꾼.html">선녀와나무꾼</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>35</td>
+                    <td><a href="../page4/east_see/page4_동굴의다원다희연.html">동굴의다원다희연</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>36</td>
+                    <td><a href="../page4/east_see/page4_산굼부리.html">산굼부리</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>37</td>
+                    <td><a href="../page4/east_see/page4_사려니숲길.html">사려니숲길</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>38</td>
+                    <td><a href="../page4/east_see/page4_함덕해수욕장.html">함덕해수욕장</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>39</td>
+                    <td><a href="../page4/east_see/page4_교래자연휴양림.html">교래자연휴양림</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td><a href="../page4/east_see/page4_동백동산.html">동백동산</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td><a href="../page4/east_see/page4_제주미니랜드.html">제주미니랜드</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>42</td>
+                    <td><a href="../page4/east_see/page4_제주돌문화공원.html">제주돌문화공원</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>43</td>
+                    <td><a href="../page4/east_see/page4_제주레포츠랜드.html">제주레포츠랜드</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>44</td>
+                    <td><a href="../page4/east_see/page4_물찻오름.html">물찻오름</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td><a href="../page4/east_see/page4_거문오름.html">거문오름</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>46</td>
+                    <td><a href="../page4/east_see/page4_렛츠런팜제주.html">렛츠런팜제주</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>47</td>
+                    <td><a href="../page4/east_see/page4_닭머르해안길.html">닭머르해안길</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <tr>
+                    <td>48</td>
+                    <td><a href="../page4/east_see/page4_에코랜드.html">에코랜드 테마파크</a></td>
+
+                    <td>동부</td>
+                    <td>볼거리</td>
+                </tr>
+                <!-- 동부 -->
+
+              </tbody>
+          </table>
+        </div>
+      </nav>
+    </header>
+      <!--먹거리, 놀거리, 볼거리의 일러스트 이미지가 삽입되는 태그  -->
+      <center class="eat_play_see_illustration">
+        <div id="illust-eat" class="selected-illust" onclick="change_illust_img('illust-eat')">
+          <img src="4.png" id="illustration">
+          <!-- 만약 각각의 일러스트들이 클릭되면 change_illust_img함수를 발생시킨다. -->
+        </div>
+        <div id="illust-play" class="unselected-illust" onclick="change_illust_img('illust-play')">
+          <img src="2.png" id="illustration">
+
+        </div>
+        <div id="illust-see" class="unselected-illust" onclick="change_illust_img('illust-see')">
+          <img src="3.png" id="illustration">
+
+        </div>
+      </center>
+
+      <div class="best">
+        <!-- 베스트를 나타내는 이미지가 들어가는 태그-->
+          <img id="best-image" src="great.png" alt="great" style="width:55px;  margin:0 10px"/>
+          <span class="b" style="font-size:35px; font-weight: 700">Best4</span>
+      </div>
+    <div>
+      <!-- 먹거리, 놀거리, 볼거리의 베스트4 이미지들이 보여지는 공간
+    모든 이미지가 입력이 되어있고 display:none 속성을 갖는다. 그리고 보여지는 이미지들은 class가 selected-imgs로 설정되면 display를 보여주게 설정되게 끔 해준다.-->
+      <center id="eat-img" class="selected-imgs">
+
+      <a href="../page4/east_eat/page4_명진전복.html"><img class="best-img" src="명진전복.png" width="240" height="280"></a>
+      <a href="../page4/east_eat/page4_가시아방국수.html"><img class="best-img" src="가시아방.png" width="240" height="280"></a>
+      <a href="../page4/east_eat/page4_평대스낵.html"><img class="best-img" src="평대스낵.png" width="240" height="280"></a>
+      <a href="../page4/east_eat/page4_상춘재.html"><img class="best-img" src="상춘재.png" width="240" height="280"></a>
+      </center>
+
+      <center id="play-img" class="best-imgs">
+
+      <a href="../page4/east_play/page4_메이즈랜드.html"><img class="best-img" src="메이즈랜드.png" width="240" height="280"></a>
+      <a href="../page4/east_play/page4_제주레일바이크.html"><img class="best-img" src="제주레일바이크.png" width="240" height="280"></a>
+      <a href="../page4/east_play/page4_감귤체험농원.html"><img class="best-img" src="한라감귤체험농원.png" width="240" height="280"></a>
+      <a href="../page4/east_play/page4_쇠와꽃승마장.html"><img class="best-img" src="쇠와꽃승마장.png" width="240" height="280"></a>
+      </center>
+
+      <center id="see-img" class="best-imgs">
+      <!-- 볼거리 이미지  -->
+
+      <a href="../page4/east_see/page4_에코랜드.html"><img class="best-img" src="에코랜드.png" width="240" height="280"></a>
+      <a href="../page4/east_see/page4_제주조천스위스마을.html"><img class="best-img" src="제주스위스.png" width="240" height="280"></a>
+      <a href="../page4/east_see/page4_선녀와나무꾼.html"><img class="best-img" src="선녀와나무꾼.png" width="240" height="280"></a>
+      <a href="../page4/east_see/page4_동굴의다원다희연.html"><img class="best-img" src="동굴의다원.png" width="240" height="280"></a>
+      </center>
+
+
+      </div>
+    </br>
+    <center>
+      <!-- 1페이지로 돌아가거나 더 보러가기를 할 경우 3page로 넘어가는 버튼  -->
+      <a href="../page1/1PAGE.html"><input type="button" value="1페이지로" id="more-info1"/> </a>
+      <a id="more-link" href="../page3/page3east/page3easteat.html"><input type="button" value="더 보러가기" id="more-info2"/> </a>
+    </center>
+
+    </div>
+    <footer id="main-footer">
+      <!-- 1페이지와 마찬가지로 더 참고할 수 있는 페이지와 연결해주는 링크를 갖는 이미지 설정을 해준다. -->
+      <div id="footer-images">
+        <div class="footer-image" onclick=location.href='https://www.jeju.go.kr/'></div>
+        <div class="footer-image" onclick=location.href='https://www.ijto.or.kr/'></div>
+        <div class="footer-image" onclick=location.href='http://www.visitjeju.or.kr/'></div>
+        <div class="footer-image" onclick=location.href='http://www.iccjeju.co.kr/'></div>
+        <div class="footer-image" onclick=location.href='https://www.visitjeju.net'></div>
+      </div>
+      <div class="jeju-sns">
+
+        <img src="jeju_insta.png" alt="" onclick=location.href='https://www.instagram.com/special_jejudo/'>
+        <img src="jeju_post.png" alt="" onclick=location.href='https://post.naver.com/my.nhn?memberNo=23264882'>
+        <img src="jeju_youtube.png" alt="" onclick=location.href='https://www.youtube.com/user/happyjejudo/video'>
+      </div>
+      <a href="#">back to top</a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- 제이쿼리 사용을 위한 src 설정 -->
+    <script type="text/javascript" src="2PAGE_DROP_DOWN.js"></script>
+    <!-- 2page에 대한 드롭다운시 검색어를 찾아주는 javascript를 적용시켜준다. -->
+    <script>
+    // 입력받는 곳이 포커스 될 경우 inner-menu, 즉 구역의 모든 먹거리, 놀거리, 볼거리가 모여있는 테이블이 나오게 해줌
+      $(".input-search").focusin(function(){
+        $("#main-navigation").find(".inner-menu").fadeIn(300);
+      });
+      // 포커스를 벗어나면 사라지게 해줌
+      $(".input-search").focusout(function(){
+        $("#main-navigation").find(".inner-menu").fadeOut(300);
+      });
+    </script>
+
+    <script type="text/javascript">
+
+      function change_illust_img(illust){
+        // 각 구역별로 먹거리, 놀거리, 볼거리의 이미지를 클릭하면 그에 맞게 베스트4 사진들이 전환되는 기능을 하는 함수
+        var object=document.getElementById(illust);
+        var link=document.getElementById('more-link');
+        // object로 illust 아이디의 태그를 받는다.
+        // link로 more-link아이디의 태그를 받는다.
+
+        if(illust=='illust-eat'){
+          var img='#eat-img';
+          var illust_tmp="#illust-eat";
+          link.href="../page3/page3east/page3easteat.html";
+        }
+
+        else if(illust=='illust-play'){
+          var img='#play-img';
+          var illust_tmp="#illust-play";
+          link.href="../page3/page3east/page3eastplay.html";
+        }
+
+        else if(illust=='illust-see'){
+          var img='#see-img';
+          var illust_tmp="#illust-see";
+          link.href="../page3/page3east/page3eastsee.html";
+        }
+        // 일러스트의 이름에 따라 img, illust_tmp의 값들이 바뀌게 설정을 해준다.
+
+        if(object.className=='unselected-illust'){
+          // 앞서 입력받은 object의 클라스 이름이 unselected-illust이면 선택되지 않은 태그이므로 아래의 선택된 태그를 선택하지않고
+          // illust_tmp와 img에 저장되어 있는 아이디의 태그들에 다음 클라스들을 추가하여 css가 적용되게 해준다.
+          $('.selected-illust').addClass('unselected-illust');
+          $('.selected-imgs').addClass('best-imgs');
+
+
+          $('.selected-illust').removeClass('selected-illust');
+          $('.selected-imgs').removeClass('selected-imgs');
+
+          $(illust_tmp).addClass('selected-illust');
+          $(img).addClass('selected-imgs');
+
+
+        }
+
+      }
+
+    </script>
+</body>
+</html>

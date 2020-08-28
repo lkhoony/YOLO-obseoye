@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>YOLO옵서예</title>
+    <style>
+    #title-header{
+      font-family: 'Gugi';
+      font-size: 28px;
+      color: #686868;
+    }
+    #second-title-header{
+      font-family: 'Nanum Pen Script';
+      font-size: 18px;
+    }
+    .explain{
+      font-family: 'Cute Font';
+      font-size: 22px;
+    }
+      body{
+        width: 1000px;
+        margin: 0px auto;
+        background-color: white;
+      }
+
+      #page-wrapper{
+        position: absolute;
+        background: white;
+        margin: 20px auto;
+        border-radius: 5px;
+        width: 1000px;
+      }
+
+    #first_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:100px;
+      z-index: 3;
+    }
+    #second_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:500px;
+      z-index: 3;
+    }
+    #mid_img{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 200px; left:393px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-radius: 100px;
+      border: 6px solid white;
+      z-index: 50;
+    }
+    .설명{
+      margin: 20px auto;
+      padding: 20px;
+      width:860px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      }
+    .가게이름{
+      text-align: center;
+    }
+    .review{
+      display: inline-block;
+      margin:0 15px;
+
+    }
+    .image-title{
+      text-align: center;
+    }
+    #images{
+      width:900px;
+      height:540px;
+      margin: 30px auto;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-top: 3px solid orange;
+      border-bottom: 3px solid orange;
+      border-radius: 10px;
+    }
+    #title{
+      position: relative;
+      width: 800px;
+      height: 100px;
+      top: 370px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #url{
+      text-align: center;
+      z-index: 100;
+      padding:
+    }
+    #insta_img, #map_img{
+      width:30px;
+      height:30px;
+    }
+    .img-text{
+      margin-top: -5px;
+      font-size: 12px;
+      color: orange;
+      font-weight: 600;
+    }
+    #title-header{
+      padding-bottom: 10px;
+    }
+
+    #second-title-header{
+      padding-bottom: 10px;
+      margin-top:-20px;
+    }
+    i{
+      width:16px;
+      height: 16px;
+      margin-right: 20px;
+    }
+
+    .explain{
+      margin: 30px 50px;
+    }
+    .menu-name{
+      width: 150px;
+    }
+    .bar div{
+      width: 300px;
+      height:0.5px;
+      border-top:0.7px dotted rgba(0,0,0,0.5);
+      vertical-align: 10%;
+    }
+    .price{
+      width:200px;
+      padding-left: 20px;
+    }
+
+    #main-footer{
+      border-top: 2px solid orange;
+      margin: 20px;
+      padding-top: 30px;
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <div id="images">
+        <img id="first_img" src="./south/쌍둥이횟집본점.jpg" alt="frist img" width="450px" height="250px">
+        <img id="second_img" src="./south/쌍둥이횟집본점4_1.jpg" alt="second img" width="450px" height="250px">
+        <img id="mid_img" src="./south/쌍둥이횟집본점4_2.jpg" alt="mid img" width="200px" height="200px">
+        <div id="title">
+          <h2  id="title-header">쌍둥이횟집본점</h2>
+          <p id="second-title-header">#제주도 #회맛집 #쌍둥이횟집 #본점</p>
+          <div id="url">
+            <div class="review">
+              <a href="https://www.instagram.com/explore/tags/%EC%8C%8D%EB%91%A5%EC%9D%B4%ED%9A%9F%EC%A7%91%EB%B3%B8%EC%A0%90/?hl=ko">
+              <img id="insta_img"  src="../instagram.jpg" alt="insta.img" ></a>
+              <p class="img-text">insta</p>
+            </div>
+            <div class="review">
+              <a href="https://map.naver.com/?eelng=11dd9f44e2381d13a13e984aebb18c06&elng=2da63b56ca5805d02de1620b0a507b77&eelat=c23f89d6fbe69656fe490086164562cb&elat=adceed7c1fb929ce3a959b97b26d2f6d&eText=%EC%8C%8D%EB%91%A5%EC%9D%B4%ED%9A%9F%EC%A7%91%EB%B3%B8%EC%A0%90">
+              <img id="map_img"  src="../map.jpg" alt="map.img" ></a>
+              <p class="img-text">map</p>
+            </div>
+         </div>
+       </div>
+      </div>
+
+      <div class="설명">
+          <div class="explain"><i class="far fa-clock"></i>매일 11:00 - 23:30 연중무휴(설,추석 휴무)</div>
+          <div class="explain"><i class="fas fa-phone"></i>064-762-0478</div>
+          <div class="explain"><i class="far fa-file-alt"></i><div style="width: 700px;margin-left:36px; margin-top:-20px;">양많고 푸짐하고 저렴한 횟집</div>
+          </div>
+          <div class="explain"><i class="fas fa-utensils"></i>
+            <table style="margin-left:36px; margin-top:-20px;">
+              <tr>
+                <td class="menu-name">모듬스페셜</td>
+                <td class="bar"><div></div></td>
+                <td class="price">100000원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">모듬스페셜 특(중)</td>
+                <td class="bar"><div></div></td>
+                <td class="price">130000원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">2인스페셜</td>
+                <td class="bar"><div></div></td>
+                <td class="price">70000원</td>
+              </tr>
+            </table>
+          </div>
+          <div class="explain"><i class="fas fa-map-marked-alt"></i>제주 서귀포시 중정로62번길 14 [지번]서귀동 496-18 쌍둥이횟집</div>
+
+      </div>
+      <footer id="main-footer">
+
+        <div class="jeju-sns">
+          <!-- <div class="sns">제주도 공식 SNS</div> -->
+          <img src="jeju_insta.png" alt="" onclick=location.href='https://www.instagram.com/special_jejudo/'>
+          <img src="jeju_post.png" alt="" onclick=location.href='https://post.naver.com/my.nhn?memberNo=23264882'>
+          <img src="jeju_youtube.png" alt="" onclick=location.href='https://www.youtube.com/user/happyjejudo/video'>
+        </div>
+        <a href="#">back to top</a>
+
+      </footer>
+    </div>
+  </body>
+</html>

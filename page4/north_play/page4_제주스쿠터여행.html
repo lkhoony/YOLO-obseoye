@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>YOLO옵서예</title>
+    <style>
+    #title-header{
+      font-family: 'Gugi';
+      font-size: 28px;
+      color: #686868;
+    }
+    #second-title-header{
+      font-family: 'Nanum Pen Script';
+      font-size: 18px;
+    }
+    .explain{
+      font-family: 'Cute Font';
+      font-size: 22px;
+    }
+      body{
+        width: 1000px;
+        margin: 0px auto;
+        background-color: white;
+      }
+
+      #page-wrapper{
+        position: absolute;
+        background: white;
+        margin: 20px auto;
+        border-radius: 5px;
+        width: 1000px;
+      }
+
+    #first_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:100px;
+      z-index: 3;
+    }
+    #second_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:500px;
+      z-index: 3;
+    }
+    #mid_img{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 200px; left:393px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-radius: 100px;
+      border: 6px solid white;
+      z-index: 50;
+    }
+    .설명{
+      margin: 20px auto;
+      padding: 20px;
+      width:860px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      }
+    .가게이름{
+      text-align: center;
+    }
+    .review{
+      display: inline-block;
+      margin:0 15px;
+
+    }
+    .image-title{
+      text-align: center;
+    }
+    #images{
+      width:900px;
+      height:540px;
+      margin: 30px auto;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-top: 3px solid orange;
+      border-bottom: 3px solid orange;
+      border-radius: 10px;
+    }
+    #title{
+      position: relative;
+      width: 800px;
+      height: 100px;
+      top: 370px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #url{
+      text-align: center;
+      z-index: 100;
+      padding:
+    }
+    #insta_img, #map_img{
+      width:30px;
+      height:30px;
+    }
+    .img-text{
+      margin-top: -5px;
+      font-size: 12px;
+      color: orange;
+      font-weight: 600;
+    }
+    #title-header{
+      padding-bottom: 10px;
+    }
+
+    #second-title-header{
+      padding-bottom: 10px;
+      margin-top:-20px;
+    }
+    i{
+      width:16px;
+      height: 16px;
+      margin-right: 20px;
+    }
+
+    .explain{
+      margin: 30px 50px;
+    }
+    .menu-name{
+      width: 300px;
+    }
+    .bar div{
+      width: 300px;
+      height:0.5px;
+      border-top:0.7px dotted rgba(0,0,0,0.5);
+      vertical-align: 10%;
+    }
+    .price{
+      width:200px;
+      padding-left: 20px;
+    }
+
+    #main-footer{
+      border-top: 2px solid orange;
+      margin: 20px;
+      padding-top: 30px;
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <div id="images">
+        <img id="first_img" src="./north/제주스쿠터여행.jpg" alt="frist img" width="450px" height="250px">
+        <img id="second_img" src="./north/제주스쿠터여행4_1.jpg" alt="second img" width="450px" height="250px">
+        <img id="mid_img" src="./north/제주스쿠터여행4_2.jpg" alt="mid img" width="200px" height="200px">
+        <div id="title">
+          <h2  id="title-header">제주스쿠터여행</h2>
+          <p id="second-title-header">#제주도 #제주스쿠터 #액티비티</p>
+          <div id="url">
+            <div class="review">
+              <a href="https://www.instagram.com/explore/tags/제주스쿠터여행">
+              <img id="insta_img"  src="../instagram.jpg" alt="insta.img" ></a>
+              <p class="img-text">insta</p>
+            </div>
+            <div class="review">
+              <a href="https://map.naver.com/?eText=%EC%A0%9C%EC%A3%BC%EC%8A%A4%EC%BF%A0%ED%84%B0%EC%97%AC%ED%96%89&eType=SITE_1&edid=11870133&elng=92317e5cc393b9cb2616155dc79270c8&elat=402ff6e0406724cc414cbe13485e2d03">
+              <img id="map_img"  src="../map.jpg" alt="map.img" ></a>
+              <p class="img-text">map</p>
+            </div>
+         </div>
+       </div>
+      </div>
+
+      <div class="설명">
+        <div class="explain"><i class="far fa-clock"></i>
+          <div style="width: 700px;margin-left:36px; margin-top:-20px;">
+          영업시간 08:30-19:00이며,동절기는 09:00-18:00 입니다. <br>
+          성수기는 7월1일 -8월31일 까지이며, 그 외는 비수기입니다.
+        </div></div>
+          <div class="explain"><i class="fas fa-phone"></i>064-722-3700</div>
+          <div class="explain"><i class="far fa-file-alt"></i>
+            <div style="width: 700px;margin-left:36px; margin-top:-20px;">
+              초보자 남녀가 쉽게 탈 수 있는 스쿠터부터 상급자들이 원하는 신형 기종까지 전부 준비되어 있는 스쿠터 렌트업체입니다.
+          </div> </div>
+          <div class="explain"><i class="fas fa-search-dollar"></i>
+            <table style="margin-left:36px; margin-top:-20px;">
+              <tr>
+                <td class="menu-name">125cc(2인용, 24시간)</td>
+                <td class="bar"><div></div></td>
+                <td class="price">25000원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">50cc(24시간) 비수기</td>
+                <td class="bar"><div></div></td>
+                <td class="price">20000원</td>
+              </tr>
+            </table>
+          </div>
+            <div class="explain"><i class="fas fa-home"></i><a href="www.jejuscooter.co.kr">www.jejuscooter.co.kr</a></div>
+          <div class="explain"><i class="fas fa-map-marked-alt"></i>제주특별자치도 제주시 서광로 164</div>
+      </div>
+      <footer id="main-footer">
+
+        <div class="jeju-sns">
+          <!-- <div class="sns">제주도 공식 SNS</div> -->
+          <img src="jeju_insta.png" alt="" onclick=location.href='https://www.instagram.com/special_jejudo/'>
+          <img src="jeju_post.png" alt="" onclick=location.href='https://post.naver.com/my.nhn?memberNo=23264882'>
+          <img src="jeju_youtube.png" alt="" onclick=location.href='https://www.youtube.com/user/happyjejudo/video'>
+        </div>
+        <a href="#">back to top</a>
+
+      </footer>
+    </div>
+  </body>
+</html>

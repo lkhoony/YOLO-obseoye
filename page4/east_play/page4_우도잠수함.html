@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>YOLO옵서예</title>
+    <style>
+      body{
+        width: 1000px;
+        margin: 0px auto;
+        background-color: white;
+      }
+      #page-wrapper{
+        position: absolute;
+        background: white;
+        margin: 20px auto;
+        border-radius: 5px;
+        width: 1000px;
+      }
+    #first_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:100px;
+      z-index: 3;
+    }
+    #second_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:500px;
+      z-index: 3;
+    }
+    #mid_img{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 200px; left:393px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-radius: 100px;
+      border: 6px solid white;
+      z-index: 50;
+    }
+    .설명{
+      margin: 20px auto;
+      padding: 20px;
+      width:860px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      }
+    .가게이름{
+      text-align: center;
+    }
+    .review{
+      display: inline-block;
+      margin:0 15px;
+
+    }
+    .image-title{
+      text-align: center;
+    }
+    #images{
+      width:900px;
+      height:540px;
+      margin: 30px auto;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-top: 3px solid orange;
+      border-bottom: 3px solid orange;
+      border-radius: 10px;
+    }
+    #title{
+      position: relative;
+      width: 800px;
+      height: 100px;
+      top: 370px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #url{
+      text-align: center;
+      z-index: 100;
+      padding:
+    }
+    #insta_img, #map_img{
+      width:30px;
+      height:30px;
+    }
+    .img-text{
+      margin-top: -5px;
+      font-size: 12px;
+      color: orange;
+      font-weight: 600;
+    }
+    #title-header{
+      padding-bottom: 10px;
+    }
+
+    #second-title-header{
+      padding-bottom: 10px;
+      margin-top:-20px;
+    }
+    i{
+      width:16px;
+      height: 16px;
+      margin-right: 20px;
+    }
+    .explain{
+      margin: 30px 50px;
+    }
+    .menu-name{
+      width: 330px;
+    }
+    .bar div{
+      width: 300px;
+      height:0.5px;
+      border-top:0.7px dotted rgba(0,0,0,0.5);
+      vertical-align: 10%;
+    }
+    .price{
+      width:200px;
+      padding-left: 20px;
+    }
+    #main-footer{
+      border-top: 2px solid orange;
+      margin: 20px;
+      padding-top: 30px;
+      text-align: center;
+    }
+    #title-header{
+      font-family: 'Gugi';
+      font-size: 28px;
+      color: #686868;
+    }
+    #second-title-header{
+      font-family: 'Nanum Pen Script';
+      font-size: 18px;
+    }
+    .explain{
+      font-family: 'Cute Font';
+      font-size: 22px;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <div id="images">
+        <img id="first_img" src="./east/우도잠수함.jpg" alt="frist img" width="450px" height="250px">
+        <img id="second_img" src="./east/우도잠수함4_1.jpg" alt="second img" width="450px" height="250px">
+        <img id="mid_img" src="./east/우도잠수함4_2.jpg" alt="mid img" width="200px" height="200px">
+        <div id="title">
+          <h2  id="title-header">우도잠수함</h2>
+          <p id="second-title-header">#제주도 #우도잠수함 #우도 #잠수함</p>
+          <div id="url">
+            <div class="review">
+              <a href="http://instagram.com/tags/우도잠수함">
+              <img id="insta_img"  src="../instagram.jpg" alt="insta.img" ></a>
+              <p class="img-text">insta</p>
+            </div>
+            <div class="review">
+              <a href="https://map.naver.com/?eText=%EC%9A%B0%EB%8F%84+%EC%9E%A0%EC%88%98%ED%95%A8&elng=58a90816ed6536473258d844785e157f&eelat=12c6ecba9c3f18442619b003c801d72f&elat=8a2350d53d92736bc3932e56cc8a9333&eelng=41ff7c84fcc313e0784883031fe539b4">
+              <img id="map_img"  src="../map.jpg" alt="map.img" ></a>
+              <p class="img-text">map</p>
+            </div>
+         </div>
+       </div>
+      </div>
+
+      <div class="설명">
+        <div class="explain"><i class="far fa-clock"></i>
+            <div style="width: 700px;margin-left:36px; margin-top:-20px;">
+              매일 09:00 - 18:00 | 하절기  <br>
+              매일 09:00 - 16:30 | 동절기</div></div>
+          <div class="explain"><i class="fas fa-phone"></i>064-784-2333</div>
+          <div class="explain"><i class="far fa-file-alt"></i>
+            <div style="width: 700px;margin-left:36px; margin-top:-20px;">
+              우도잠수함은 세계적으로 해저경관이 유명한 우도 앞바다 일대 바다속을 탐험하는 수중속 신비를 만날 수 있는 씨월드 잠수함입니다.
+              우도 해저에는 다양한 볼거리들이 있습니다.
+              제주도 특산어종인 자리돔, 노란바탕에 파란줄무늬 범돔, 회색바탕에 검은줄무늬 돌돔, 화려한 바다 공작새 솔베감팽,
+              얼룩말을 연상시키는 줄도화돔 등은 무리를 지어 다니며 사람들 눈을 즐겁게 해줍니다.
+           </div>
+          </div>
+          <div class="explain"><i class="fas fa-search-dollar"></i>
+            <table style="margin-left:36px; margin-top:-20px;">
+              <tr>
+                <td class="menu-name">성인/ 중,고등생</td>
+                <td class="bar"><div></div></td>
+                <td class="price">55000원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">소인</td>
+                <td class="bar"><div></div></td>
+                <td class="price">36000원</td>
+              </tr>
+            </table>
+          </div>
+            <div class="explain"><i class="fas fa-home"></i>
+              <a href="http://www.jejuseaworld.co.kr/index.php">http://www.jejuseaworld.co.kr/index.php</a></div>
+          <div class="explain"><i class="fas fa-map-marked-alt"></i>
+                제주 서귀포시 성산읍 성산등용로 112-7</div>
+      </div>
+      <footer id="main-footer">
+
+        <div class="jeju-sns">
+          <!-- <div class="sns">제주도 공식 SNS</div> -->
+          <img src="jeju_insta.png" alt="" onclick=location.href='https://www.instagram.com/special_jejudo/'>
+          <img src="jeju_post.png" alt="" onclick=location.href='https://post.naver.com/my.nhn?memberNo=23264882'>
+          <img src="jeju_youtube.png" alt="" onclick=location.href='https://www.youtube.com/user/happyjejudo/video'>
+        </div>
+        <a href="#">back to top</a>
+
+      </footer>
+    </div>
+  </body>
+</html>

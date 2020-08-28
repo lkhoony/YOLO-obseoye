@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>YOLO옵서예</title>
+    <style>
+    #title-header{
+      font-family: 'Gugi';
+      font-size: 28px;
+      color: #686868;
+    }
+    #second-title-header{
+      font-family: 'Nanum Pen Script';
+      font-size: 18px;
+    }
+    .explain{
+      font-family: 'Cute Font';
+      font-size: 22px;
+    }
+      body{
+        width: 1000px;
+        margin: 0px auto;
+        background-color: white;
+      }
+
+      #page-wrapper{
+        position: absolute;
+        background: white;
+        margin: 20px auto;
+        border-radius: 5px;
+        width: 1000px;
+      }
+
+    #first_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:100px;
+      z-index: 3;
+    }
+    #second_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:500px;
+      z-index: 3;
+    }
+    #mid_img{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 200px; left:393px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-radius: 100px;
+      border: 6px solid white;
+      z-index: 50;
+    }
+    .설명{
+      margin: 20px auto;
+      padding: 20px;
+      width:860px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      }
+    .가게이름{
+      text-align: center;
+    }
+    .review{
+      display: inline-block;
+      margin:0 15px;
+
+    }
+    .image-title{
+      text-align: center;
+    }
+    #images{
+      width:900px;
+      height:540px;
+      margin: 30px auto;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-top: 3px solid orange;
+      border-bottom: 3px solid orange;
+      border-radius: 10px;
+    }
+    #title{
+      position: relative;
+      width: 800px;
+      height: 100px;
+      top: 370px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #url{
+      text-align: center;
+      z-index: 100;
+      padding:
+    }
+    #insta_img, #map_img{
+      width:30px;
+      height:30px;
+    }
+    .img-text{
+      margin-top: -5px;
+      font-size: 12px;
+      color: orange;
+      font-weight: 600;
+    }
+    #title-header{
+      padding-bottom: 10px;
+    }
+
+    #second-title-header{
+      padding-bottom: 10px;
+      margin-top:-20px;
+    }
+    i{
+      width:16px;
+      height: 16px;
+      margin-right: 20px;
+    }
+
+    .explain{
+      margin: 30px 50px;
+    }
+    .menu-name{
+      width: 300px;
+    }
+    .bar div{
+      width: 300px;
+      height:0.5px;
+      border-top:0.7px dotted rgba(0,0,0,0.5);
+      vertical-align: 10%;
+    }
+    .price{
+      width:200px;
+      padding-left: 20px;
+    }
+
+    #main-footer{
+      border-top: 2px solid orange;
+      margin: 20px;
+      padding-top: 30px;
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <div id="images">
+        <img id="first_img" src="./north/관덕정.jpg" alt="frist img" width="450px" height="250px">
+        <img id="second_img" src="./north/관덕정4_1.jpg" alt="second img" width="450px" height="250px">
+        <img id="mid_img" src="./north/관덕정4_2.jpg" alt="mid img" width="200px" height="200px">
+        <div id="title">
+          <h2  id="title-header">관덕정</h2>
+          <p id="second-title-header">#제주도 #관덕정</p>
+          <div id="url">
+            <div class="review">
+              <a href="https://www.instagram.com/explore/tags/관덕정">
+              <img id="insta_img"  src="../instagram.jpg" alt="insta.img" ></a>
+              <p class="img-text">insta</p>
+            </div>
+            <div class="review">
+              <a href="https://map.naver.com/?eText=%EA%B4%80%EB%8D%95%EC%A0%95&eType=SITE_1&edid=19822704&elng=78f540b26cc2244a7af0a82ea973311f&elat=0b2c6f25315a8cf7502c74586c9e7c25">
+              <img id="map_img"  src="../map.jpg" alt="map.img" ></a>
+              <p class="img-text">map</p>
+            </div>
+         </div>
+       </div>
+      </div>
+
+      <div class="설명">
+          <div class="explain"><i class="fas fa-phone"></i>064-710-6711</div>
+          <div class="explain"><i class="far fa-file-alt"></i>
+            <div style="width: 700px;margin-left:36px; margin-top:-20px;">
+            1963년 1월 21일 보물 제322호로 지정되었다. 정면 5칸, 옆면 4칸, 단층 팔작지붕 양식이다.
+            긴 대석으로 앉힌 기단 위에 세운 정자로 주위 4면이 모두 트여 있다. 기둥 윗몸에는 창방(昌枋)과 그 밑에 인방(引枋)을 짜 돌렸으나 평방(平枋) 없이 주두(柱頭)를 얹어 공포(栱包)를 배치하고, 정형화된 이익공(二翼工) 형식으로 외목도리(外目道里)를 받쳤다.
+          </div> </div>
+            <div class="explain"><i class="fas fa-tv"></i>알쓸신잡2 5회</div>
+          <div class="explain"><i class="fas fa-map-marked-alt"></i>제주특별자치도 제주시 관덕로 19 관덕정 </div>
+      </div>
+      <footer id="main-footer">
+
+        <div class="jeju-sns">
+          <!-- <div class="sns">제주도 공식 SNS</div> -->
+          <img src="jeju_insta.png" alt="" onclick=location.href='https://www.instagram.com/special_jejudo/'>
+          <img src="jeju_post.png" alt="" onclick=location.href='https://post.naver.com/my.nhn?memberNo=23264882'>
+          <img src="jeju_youtube.png" alt="" onclick=location.href='https://www.youtube.com/user/happyjejudo/video'>
+        </div>
+        <a href="#">back to top</a>
+
+      </footer>
+    </div>
+  </body>
+</html>

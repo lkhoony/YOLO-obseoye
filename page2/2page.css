@@ -1,0 +1,331 @@
+/*  */
+/* 2page에 대한 css적용
+/*  */
+/* ================================================================================================== */
+body {
+  /* width: 960px; */
+  margin:0 auto;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  font-weight: 600;
+}
+/*  모든 a테그에 대해서 decoration을 none으로 하고 색과 글자굵기를 설정한다. */
+li{
+  text-decoration: none;
+  list-style: none;
+}
+/* li태그들의 decoration과 list style을 없앤다.
+ */
+
+ /* ================================================================================================== */
+ /*  2. 폰트 설정
+     해당 태그들에 대해서 폰트를 아래와 같이 설정한다.
+*/
+.font_italic {font-style: italic;}
+.font_center {text-align: center;}
+
+h1 {
+  font-family: "Gugi";
+  font-size: 60px;
+}
+div.second-title{
+  font-family: 'Gamja Flower';
+  font-size: 25px;
+}
+span.b {
+  font-family: 'Righteous';
+}
+
+ /* ================================================================================================== */
+/* 3. 헤더설정 */
+h1 {
+font-size: 40px;
+color: rgba(225,225,225,1);
+text-shadow:  3px 3px 3px rgba(0,0,0,0.8);
+background-size: 100px;
+opacity: 0.5;
+}
+/* 맨 위의 타이틀에 위와 같이 설정해준다. */
+
+.second-title{
+width: 1000px;
+text-align: center;
+margin:0 auto;
+border-bottom: 3px dotted orange;
+padding-bottom: 20px;
+}
+/* 밑의 해시태그 문구들에 대한 설정을 해준다.  */
+h4 {color:gray;}
+
+h3 {
+color:orange;
+padding-left: 20px;
+}
+
+h2{
+margin:10px auto;
+font-size: 20px;
+}
+/* h태그들에 대해서 위와 같이 설정한다. */
+/* ================================================================================================== */
+/* 4. page 전체
+ */
+
+#page-wrapper {
+background: white;
+border-radius: 5px;
+box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+position:relative;
+width: 1200px;
+margin: 20px auto;
+padding: 10px 10px;
+}
+/* page의 내용을 포함하는 div인 page-wrapper의 width를 1200px로 설정한다. 또한 배경, margin, padding을 이처럼 설정한다. */
+
+#illustration{
+width: 170px;
+height: 200px;
+padding: 10px 20px;
+margin: 0 25px;
+}
+
+/* 먹거리, 놀거리, 볼거리를 나타내는 일러스트들의 크기를 다음과 같이 설정해준다. */
+
+.best{
+display: block;
+width:1000px;
+margin: 0 auto;
+border-bottom: 3px dotted orange;
+margin-bottom: 30px;
+color: orange;
+padding:20px 0;
+}
+
+/* 베스트를 나타내는 이미지와 문구가 들어가는 div이다. width를 1000px로 하여서 1200px보다는 조금 작게하고 best의 문구와 bottom border를 오렌지색으로 설정한다.
+ */
+
+.unselected-illust{
+  display: inline-block;
+  opacity: 0.3;
+}
+/* 선택되지 않은 일러스트들은 투명도를 낮춰서 선택이 안되어있음을 나타낸다. */
+
+.selected-illust{
+  display: inline-block;
+  opacity: 1;
+}
+/* 선택된 일러스트는 투명도를 1로하여 선택됨을 타나낸다. */
+
+.selected_img{
+  display: block;
+}
+/* 먹거리, 볼거리, 놀거리에 맞는 이미지들을 none 되어 있는 것을 선택되면 block으로 바꾸어 화면에 나타낸다. */
+.best-imgs{
+  display: none;
+}
+/* 베스트 이미지들을 none으로 설정해둔다. */
+.selected-imgs{
+  display: block;
+}
+/* 베스트4에 대한 이미지들을 화면에 나타나게 해준다. */
+
+
+#eat_play_see_illustration{
+  margin-top: 30px;
+}
+/* 일러스트들이 모여있는 태그들의 위의 간격을 30px로 해준다. */
+
+#more-info1{
+width: 150px;
+margin: 15px 20px;
+padding: 10px;
+background: orange;
+border: 1px solid orange;
+color: white;
+font-weight: 600;
+text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+}
+
+#more-info2{
+width: 150px;
+margin: 15px 20px;
+padding: 10px;
+background: orange;
+border: 1px solid orange;
+color: white;
+font-weight: 600;
+text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+}
+/* 각각 1페이지, 더보러가기에 대한 버튼의 css이다. */
+/* ================================================================================================== */
+/* 5. 내비게이션 전체
+/* 내비게이션 메뉴를 구성하는 방법은 1page와 같지만 width를 줄인 것이 차이점이다. */
+
+#main-navigation{
+position: relative;
+text-align: center;
+}
+
+.outer-menu{
+padding:0;
+margin-top: 30px;
+margin-bottom : 40px;
+}
+.outer-menu-item{
+
+display: inline-block;
+position: relative;
+}
+
+.menu-title{
+display: block;
+height: 30px; line-height: 30px;
+text-align: center;
+padding: 0 20px ;
+margin: 0 20px;
+color: orange;
+font-weight: 500;
+text-shadow:  1px 1px 1px rgba(150,150,150,0.8);
+
+}
+
+.menu-title:hover{
+border-top: 2px solid orange;
+height: 28px;
+line-height: 26px;
+}
+
+.inner-menu{
+display: none;
+position: absolute;
+overflow: scroll;
+
+top: 110px; left: 250px;
+width: 700px;
+height: 400px;
+padding: 20px 0;
+background: white;
+box-shadow: 0 2px 6px rgba(5,5,5,0.9);
+z-index: 1000;
+
+text-align: center;
+
+}
+/* inner메뉴의 width는 2page에서는 각각 700px, 400px로 하였다. */
+
+#selecte-cate{
+background: orange;
+color: white;
+}
+/* 선택된 메뉴는 배경색이 바뀌게 해준다. */
+
+.active{
+color:white;
+}
+/* selecte-cate안의 a태그로써 글씨색을 바꾸기 위함이다. */
+
+/* ================================================================================================== */
+/* 6. search-bar */
+/* 1 page와 마찬가지로 search-bar에 대한 스타일시트를 적용하였고 2page에서는 돋보기 이미지와 input입력란을 조금 띄웠다. */
+.search-bar{
+margin: 40px 0;
+vertical-align: top;
+}
+
+#search{
+display: inline-block;
+}
+
+#search-ill{
+width: 20px;
+height: 20px;
+border : 4px solid orange;
+}
+
+.input-search{
+vertical-align: 63%;
+height: 22px;
+}
+
+.best-img{
+margin:25px;
+}
+
+/* ================================================================================================== */
+/* 7. inner메뉴의 table */
+#user-table {
+
+margin: 0 auto; text-align: center;
+
+}
+
+#input-form {
+
+margin-top: 10px; margin-bottom: 10px;
+
+}
+
+#user-table {
+
+border-collapse: collapse;
+
+}
+
+#user-table > thead > tr {
+  background-color: orange; color:#fff;
+}
+
+#user-table > thead > tr > th {
+padding: 8px; width: 150px;
+}
+
+#user-table > tbody > tr > td {
+border-bottom: 1px solid gray; padding:8px;
+}
+
+/* ================================================================================================== */
+/* 8. 풋터
+   1page와 마찬가지로 참고 사이트들에 대한 배너와 관련 sns의 링크를 건 이미지들에 대한 스타일시트 적용  */
+   #main-footer{
+     min-width: 1200px;
+     border-top: 2px solid orange;
+     margin: 20px;
+     padding-top: 30px;
+     text-align: center;
+   }
+#footer-images{
+  margin:10px 0;
+}
+
+.footer-image{
+  margin: 0px 10px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.footer-image:nth-child(1){
+  background-image: url('jeju_special.png');
+
+}
+.footer-image:nth-child(2){
+  background-image: url('jeju_tourism.png');
+
+}
+.footer-image:nth-child(3){
+  background-image: url('jeju_association.jpg');
+
+}
+.footer-image:nth-child(4){
+  background-image: url('jeju_acc.jpg');
+
+}
+.footer-image:nth-child(5){
+  background-image: url('jeju_visit.png');
+
+}

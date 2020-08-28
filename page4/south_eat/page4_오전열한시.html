@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>YOLO옵서예</title>
+    <style>
+    #title-header{
+      font-family: 'Gugi';
+      font-size: 28px;
+      color: #686868;
+    }
+    #second-title-header{
+      font-family: 'Nanum Pen Script';
+      font-size: 18px;
+    }
+    .explain{
+      font-family: 'Cute Font';
+      font-size: 22px;
+    }
+      body{
+        width: 1000px;
+        margin: 0px auto;
+        background-color: white;
+      }
+
+      #page-wrapper{
+        position: absolute;
+        background: white;
+        margin: 20px auto;
+        border-radius: 5px;
+        width: 1000px;
+      }
+
+    #first_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:100px;
+      z-index: 3;
+    }
+    #second_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:500px;
+      z-index: 3;
+    }
+    #mid_img{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 200px; left:393px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-radius: 100px;
+      border: 6px solid white;
+      z-index: 50;
+    }
+    .설명{
+      margin: 20px auto;
+      padding: 20px;
+      width:860px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      }
+    .가게이름{
+      text-align: center;
+    }
+    .review{
+      display: inline-block;
+      margin:0 15px;
+
+    }
+    .image-title{
+      text-align: center;
+    }
+    #images{
+      width:900px;
+      height:540px;
+      margin: 30px auto;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-top: 3px solid orange;
+      border-bottom: 3px solid orange;
+      border-radius: 10px;
+    }
+    #title{
+      position: relative;
+      width: 800px;
+      height: 100px;
+      top: 370px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #url{
+      text-align: center;
+      z-index: 100;
+      padding:
+    }
+    #insta_img, #map_img{
+      width:30px;
+      height:30px;
+    }
+    .img-text{
+      margin-top: -5px;
+      font-size: 12px;
+      color: orange;
+      font-weight: 600;
+    }
+    #title-header{
+      padding-bottom: 10px;
+    }
+
+    #second-title-header{
+      padding-bottom: 10px;
+      margin-top:-20px;
+    }
+    i{
+      width:16px;
+      height: 16px;
+      margin-right: 20px;
+    }
+
+    .explain{
+      margin: 30px 50px;
+    }
+    .menu-name{
+      width: 100px;
+    }
+    .bar div{
+      width: 300px;
+      height:0.5px;
+      border-top:0.7px dotted rgba(0,0,0,0.5);
+      vertical-align: 10%;
+    }
+    .price{
+      width:200px;
+      padding-left: 20px;
+    }
+    .tv{
+      padding-left: 41px;
+    }
+
+    #main-footer{
+      border-top: 2px solid orange;
+      margin: 20px;
+      padding-top: 30px;
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <div id="images">
+        <img id="first_img" src="./south/오전열한시.jpg" alt="frist img" width="450px" height="250px">
+        <img id="second_img" src="./south/오전열한시4_1.jpg" alt="second img" width="450px" height="250px">
+        <img id="mid_img" src="./south/오전열한시4_2.jpg" alt="mid img" width="200px" height="200px">
+        <div id="title">
+          <h2  id="title-header">오전열한시</h2>
+          <p id="second-title-header">#제주도 #맛집 #새우 #오전열한시 #TV방송</p>
+          <div id="url">
+            <div class="review">
+              <a href="https://www.instagram.com/explore/tags/%EC%98%A4%EC%A0%84%EC%97%B4%ED%95%9C%EC%8B%9C/">
+              <img id="insta_img"  src="../instagram.jpg" alt="insta.img" ></a>
+              <p class="img-text">insta</p>
+            </div>
+            <div class="review">
+              <a href="https://map.naver.com/?eText=%EC%98%A4%EC%A0%84%EC%97%B4%ED%95%9C%EC%8B%9C&elng=ca00f8bc9738bddf18e8477721b5f0d2385c7047376296481de045efc508e077&eelat=&elat=577428816e80cb75323fbdd425ab41c906e3a6590f3b6fc39f051d7d523a5fc1&eelng=e">
+              <img id="map_img"  src="../map.jpg" alt="map.img" ></a>
+              <p class="img-text">map</p>
+            </div>
+         </div>
+       </div>
+      </div>
+
+      <div class="설명">
+
+          <div class="explain"><i class="far fa-clock"></i>일 11:00 - 17:00Last order 17:00 / 재료소진시 조기마감 [수요일 휴무]</div>
+          <div class="explain"><i class="fas fa-phone"></i>070-8813-5576</div>
+          <div class="explain"><i class="far fa-file-alt"></i><div style="width: 700px;margin-left:36px; margin-top:-20px;">항상 신선한 재료로 맛있는 음식을 만들겠습니다.
+            <br>맛. 분위기. 가격 모두 만족 하실겁니다..</div>
+          </div>
+          <div class="explain"><i class="fas fa-utensils"></i>
+            <table style="margin-left:36px; margin-top:-20px;">
+              <tr>
+                <td class="menu-name">육쌈동치미</td>
+                <td class="bar"><div></div></td>
+                <td class="price">13000원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">전복볶음밥</td>
+                <td class="bar"><div></div></td>
+                <td class="price">15000원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">간장새우밥</td>
+                <td class="bar"><div></div></td>
+                <td class="price">13000원</td>
+              </tr>
+            </table>
+          </div>
+          <div class="explain"><i class="fas fa-map-marked-alt"></i>제주 서귀포시 상예로 248 [지번]상예동 1765-1</div>
+
+      </div>
+      <footer id="main-footer">
+
+        <div class="jeju-sns">
+          <!-- <div class="sns">제주도 공식 SNS</div> -->
+          <img src="jeju_insta.png" alt="" onclick=location.href='https://www.instagram.com/special_jejudo/'>
+          <img src="jeju_post.png" alt="" onclick=location.href='https://post.naver.com/my.nhn?memberNo=23264882'>
+          <img src="jeju_youtube.png" alt="" onclick=location.href='https://www.youtube.com/user/happyjejudo/video'>
+        </div>
+        <a href="#">back to top</a>
+
+      </footer>
+    </div>
+  </body>
+</html>

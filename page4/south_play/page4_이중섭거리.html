@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>YOLO옵서예</title>
+    <style>
+    #title-header{
+      font-family: 'Gugi';
+      font-size: 28px;
+      color: #686868;
+    }
+    #second-title-header{
+      font-family: 'Nanum Pen Script';
+      font-size: 18px;
+    }
+    .explain{
+      font-family: 'Cute Font';
+      font-size: 22px;
+    }
+      body{
+        width: 1000px;
+        margin: 0px auto;
+        background-color: white;
+      }
+
+      #page-wrapper{
+        position: absolute;
+        background: white;
+        margin: 20px auto;
+        border-radius: 5px;
+        width: 1000px;
+      }
+
+    #first_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:100px;
+      z-index: 3;
+    }
+    #second_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:500px;
+      z-index: 3;
+    }
+    #mid_img{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 200px; left:393px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-radius: 100px;
+      border: 6px solid white;
+      z-index: 50;
+    }
+    .설명{
+      margin: 20px auto;
+      padding: 20px;
+      width:860px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      }
+    .가게이름{
+      text-align: center;
+    }
+    .review{
+      display: inline-block;
+      margin:0 15px;
+
+    }
+    .image-title{
+      text-align: center;
+    }
+    #images{
+      width:900px;
+      height:540px;
+      margin: 30px auto;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-top: 3px solid orange;
+      border-bottom: 3px solid orange;
+      border-radius: 10px;
+    }
+    #title{
+      position: relative;
+      width: 800px;
+      height: 100px;
+      top: 370px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #url{
+      text-align: center;
+      z-index: 100;
+      padding:
+    }
+    #insta_img, #map_img{
+      width:30px;
+      height:30px;
+    }
+    .img-text{
+      margin-top: -5px;
+      font-size: 12px;
+      color: orange;
+      font-weight: 600;
+    }
+    #title-header{
+      padding-bottom: 10px;
+    }
+
+    #second-title-header{
+      padding-bottom: 10px;
+      margin-top:-20px;
+    }
+    i{
+      width:16px;
+      height: 16px;
+      margin-right: 20px;
+    }
+
+    .explain{
+      margin: 30px 50px;
+    }
+    .menu-name{
+      width: 130px;
+    }
+    .bar div{
+      width: 300px;
+      height:0.5px;
+      border-top:0.7px dotted rgba(0,0,0,0.5);
+      vertical-align: 10%;
+    }
+    .price{
+      width:200px;
+      padding-left: 20px;
+    }
+
+    #main-footer{
+      border-top: 2px solid orange;
+      margin: 20px;
+      padding-top: 30px;
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <div id="images">
+        <img id="first_img" src="./south/이중섭거리.jpg" alt="frist img" width="450px" height="250px">
+        <img id="second_img" src="./south/이중섭거리4_1.jpg" alt="second img" width="450px" height="250px">
+        <img id="mid_img" src="./south/이중섭거리4_2.jpg" alt="mid img" width="200px" height="200px">
+        <div id="title">
+          <h2  id="title-header">이중섭거리</h2>
+          <p id="second-title-header">#제주도 #이중섭거리 #이중섭미술관 #이중섭생가 #미술관</p>
+          <div id="url">
+            <div class="review">
+              <a href="https://www.instagram.com/explore/tags/%EC%A0%9C%EC%A3%BC%EB%AF%BC%EC%86%8D%EC%B4%8C/?hl=ko">
+              <img id="insta_img"  src="../instagram.jpg" alt="insta.img" ></a>
+              <p class="img-text">insta</p>
+            </div>
+            <div class="review">
+              <a href="https://map.naver.com/?elng=1c8ed3ab7d457ee2646fe47076ea1ae6&eelat=579e306c9c00fdcbdc85f31b71f65ab9&elat=932b42aaca1839b3af5c279ddd36e72d&eText=%EC%A0%9C%EC%A3%BC%EB%AF%BC%EC%86%8D%EC%B4%8C&eelng=7f0b5141d65e0335e88e24f2694148b9">
+              <img id="map_img"  src="../map.jpg" alt="map.img" ></a>
+              <p class="img-text">map</p>
+            </div>
+         </div>
+       </div>
+      </div>
+
+      <div class="설명">
+          <div class="explain"><i class="far fa-file-alt"></i>
+            <div style="width: 700px;margin-left:36px; margin-top:-20px;">
+            강한 필치의 소 그림으로 유명한 화가 이중섭을 기념하기 위해 만든 곳으로 6·25전쟁 중 피난민으로 제주에 내려와 일본인 아내,
+            두 아들과 함께 기거했던 집을 서귀포시에서 인수해 기념관으로 단장하고 그 뒤편에 미술관을 세웠다.
+            궁핍한 피난민의 생활이었지만 가족과 함께였기에 제주에서 그려낸 이중섭의 그림들은 더욱 뛰어나다는 평가를 받는다.
+            기념관은 초가지붕의 제주 전통 가옥으로 그나마도 이중섭이 기거했던 곳은 달랑 방 한 칸이었다고 한다.
+            <br><br>
+            그래도 이중섭의 가족은 서귀포에서 가장 행복한 시간을 보냈고 작가는 그 짧은 시기를 지상 낙원으로 표현해냈다. 툇마루에 앉아 굴곡진 작가의 삶을 되짚어보는 것도 의미 있는 일이겠다.
+            돌담을 따라 야트막한 언덕 위의 이중섭 미술관으로 들어가면 상설전시실에서는 그의 작품들을 감상할 수 있고 기획전시실에는 이중섭과 가깝게 지냈던 벗들의 작품이 전시되어 있다.
+          </div></div>
+          <div class="explain"><i class="fas fa-search-dollar"></i>
+            <table style="margin-left:36px; margin-top:-20px;">
+              <tr>
+                <td class="menu-name"><strong>이중섭미술관</strong></td>
+              </tr>
+              <tr>
+                <td class="menu-name">어른(25~64세)</td>
+                <td class="bar"><div></div></td>
+                <td class="price">1500원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">청소년(13~24세)</td>
+                <td class="bar"><div></div></td>
+                <td class="price">800원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">어린이(7~12세)</td>
+                <td class="bar"><div></div></td>
+                <td class="price"> 400원</td>
+              </tr>
+            </table>
+            </div>
+            <div class="explain"><i class="far fa-clock"></i>
+              <div style="width: 700px;margin-left:36px; margin-top:-20px;">
+                거리는 이용시간제한없음
+              <br>미술관 : 매일 09:00~18:00 [월요일 휴무]</div></div>
+            <div class="explain"><i class="fas fa-phone"></i>064-787-4501</div>
+            <div class="explain"><i class="fas fa-home"></i>미술관 :
+              <a href="http://culture.seogwipo.go.kr/jslee/ ">http://culture.seogwipo.go.kr/jslee/</a></div>
+          <div class="explain"><i class="fas fa-map-marked-alt"></i>제주 서귀포시 이중섭로29</div>
+      </div>
+      <footer id="main-footer">
+
+        <div class="jeju-sns">
+          <!-- <div class="sns">제주도 공식 SNS</div> -->
+          <img src="jeju_insta.png" alt="" onclick=location.href='https://www.instagram.com/special_jejudo/'>
+          <img src="jeju_post.png" alt="" onclick=location.href='https://post.naver.com/my.nhn?memberNo=23264882'>
+          <img src="jeju_youtube.png" alt="" onclick=location.href='https://www.youtube.com/user/happyjejudo/video'>
+        </div>
+        <a href="#">back to top</a>
+
+      </footer>
+    </div>
+  </body>
+</html>

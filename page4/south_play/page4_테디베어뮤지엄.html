@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>YOLO옵서예</title>
+    <style>
+    #title-header{
+      font-family: 'Gugi';
+      font-size: 28px;
+      color: #686868;
+    }
+    #second-title-header{
+      font-family: 'Nanum Pen Script';
+      font-size: 18px;
+    }
+    .explain{
+      font-family: 'Cute Font';
+      font-size: 22px;
+    }
+      body{
+        width: 1000px;
+        margin: 0px auto;
+        background-color: white;
+      }
+
+      #page-wrapper{
+        position: absolute;
+        background: white;
+        margin: 20px auto;
+        border-radius: 5px;
+        width: 1000px;
+      }
+
+    #first_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:100px;
+      z-index: 3;
+    }
+    #second_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:500px;
+      z-index: 3;
+    }
+    #mid_img{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 200px; left:393px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-radius: 100px;
+      border: 6px solid white;
+      z-index: 50;
+    }
+    .설명{
+      margin: 20px auto;
+      padding: 20px;
+      width:860px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      }
+    .가게이름{
+      text-align: center;
+    }
+    .review{
+      display: inline-block;
+      margin:0 15px;
+
+    }
+    .image-title{
+      text-align: center;
+    }
+    #images{
+      width:900px;
+      height:540px;
+      margin: 30px auto;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-top: 3px solid orange;
+      border-bottom: 3px solid orange;
+      border-radius: 10px;
+    }
+    #title{
+      position: relative;
+      width: 800px;
+      height: 100px;
+      top: 370px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #url{
+      text-align: center;
+      z-index: 100;
+      padding:
+    }
+    #insta_img, #map_img{
+      width:30px;
+      height:30px;
+    }
+    .img-text{
+      margin-top: -5px;
+      font-size: 12px;
+      color: orange;
+      font-weight: 600;
+    }
+    #title-header{
+      padding-bottom: 10px;
+    }
+
+    #second-title-header{
+      padding-bottom: 10px;
+      margin-top:-20px;
+    }
+    i{
+      width:16px;
+      height: 16px;
+      margin-right: 20px;
+    }
+
+    .explain{
+      margin: 30px 50px;
+    }
+    .menu-name{
+      width: 300px;
+    }
+    .bar div{
+      width: 300px;
+      height:0.5px;
+      border-top:0.7px dotted rgba(0,0,0,0.5);
+      vertical-align: 10%;
+    }
+    .price{
+      width:200px;
+      padding-left: 20px;
+    }
+
+    #main-footer{
+      border-top: 2px solid orange;
+      margin: 20px;
+      padding-top: 30px;
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <div id="images">
+        <img id="first_img" src="./south/테디베어뮤지엄.jpg" alt="frist img" width="450px" height="250px">
+        <img id="second_img" src="./south/테디베어뮤지엄4_1.jpg" alt="second img" width="450px" height="250px">
+        <img id="mid_img" src="./south/테디베어뮤지엄4_2.jpg" alt="mid img" width="200px" height="200px">
+        <div id="title">
+          <h2  id="title-header">테디베어뮤지엄</h2>
+          <p id="second-title-header">#제주도 #테디베어뮤지엄 #뮤지엄 #테디베어</p>
+          <div id="url">
+            <div class="review">
+              <a href="https://www.instagram.com/explore/tags/제주테디베어뮤지엄/">
+              <img id="insta_img"  src="../instagram.jpg" alt="insta.img" ></a>
+              <p class="img-text">insta</p>
+            </div>
+            <div class="review">
+              <a href="https://map.naver.com/?eText=%ED%85%8C%EB%94%94%EB%B2%A0%EC%96%B4%EB%AE%A4%EC%A7%80%EC%97%84&elng=166aa98c908fcca83b7ad7ab62e7519e385c7047376296481de045efc508e077&eelat=23e11d44bfe67c6bb4cddd5ed3b09c9d&elat=25306e658268711421471a1f8f76dcf506e3a6590f3b6fc39f051d7d523a5fc1&eelng=af98852c1f82c614c5c1e4067bbcd471">
+              <img id="map_img"  src="../map.jpg" alt="map.img" ></a>
+              <p class="img-text">map</p>
+            </div>
+         </div>
+       </div>
+      </div>
+      <div class="설명">
+        <div class="explain"><i class="far fa-clock"></i>매일 09:00 - 19:00 | 입장마감 18:00 </div>
+          <div class="explain"><i class="fas fa-phone"></i>064-738-7600</div>
+          <div class="explain"><i class="far fa-file-alt"></i><div style="width: 700px;margin-left:36px; margin-top:-20px;">
+            1902년 탄생 이래 전 연령층의 사랑을 받고 있는 테디베어 <br>
+            제주 테디베어뮤지엄은 국내 최초이자 최대 규모의 테디베어 박물관으로 다양한 전시 콘텐츠를 선보이고 있습니다.
+           </div>
+          </div>
+          <div class="explain"><i class="fas fa-search-dollar"></i>
+            <table style="margin-left:36px; margin-top:-20px;">
+              <tr>
+                <td class="menu-name">성인</td>
+                <td class="bar"><div></div></td>
+                <td class="price">10000원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">청소년</td>
+                <td class="bar"><div></div></td>
+                <td class="price">9000원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">어린이</td>
+                <td class="bar"><div></div></td>
+                <td class="price">8000원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">군경/장애인/경로</td>
+                <td class="bar"><div></div></td>
+                <td class="price">8000원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">36개월 이하</td>
+                <td class="bar"><div></div></td>
+                <td class="price">무료</td>
+              </tr>
+            </table>
+          </div>
+          <div class="explain"><i class="fas fa-home"></i><a href="http://www.teddybearmuseum.com/">http://www.teddybearmuseum.com/</a></div>
+          <div class="explain"><i class="fas fa-map-marked-alt"></i>제주 서귀포시 중문관광로110번길 31 [지번]색달동 2889</div>
+
+      </div>
+      <footer id="main-footer">
+
+        <div class="jeju-sns">
+          <!-- <div class="sns">제주도 공식 SNS</div> -->
+          <img src="jeju_insta.png" alt="" onclick=location.href='https://www.instagram.com/special_jejudo/'>
+          <img src="jeju_post.png" alt="" onclick=location.href='https://post.naver.com/my.nhn?memberNo=23264882'>
+          <img src="jeju_youtube.png" alt="" onclick=location.href='https://www.youtube.com/user/happyjejudo/video'>
+        </div>
+        <a href="#">back to top</a>
+
+      </footer>
+    </div>
+  </body>
+</html>

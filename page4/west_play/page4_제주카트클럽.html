@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+      <meta charset="utf-8">
+      <title>YOLO옵서예</title>
+      <style>
+      #title-header{
+        font-family: 'Gugi';
+        font-size: 28px;
+        color: #686868;
+      }
+      #second-title-header{
+        font-family: 'Nanum Pen Script';
+        font-size: 18px;
+      }
+      .explain{
+        font-family: 'Cute Font';
+        font-size: 22px;
+      }
+      body{
+        width: 1000px;
+        margin: 0px auto;
+        background-color: white;
+      }
+      #page-wrapper{
+        position: absolute;
+        background: white;
+        margin: 20px auto;
+        border-radius: 5px;
+        width: 1000px;
+      }
+    #first_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:100px;
+      z-index: 3;
+    }
+    #second_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:500px;
+      z-index: 3;
+    }
+    #mid_img{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 200px; left:393px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-radius: 100px;
+      border: 6px solid white;
+      z-index: 50;
+    }
+    .설명{
+      margin: 20px auto;
+      padding: 20px;
+      width:860px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      }
+    .가게이름{
+      text-align: center;
+    }
+    .review{
+      display: inline-block;
+      margin:0 15px;
+
+    }
+    .image-title{
+      text-align: center;
+    }
+    #images{
+      width:900px;
+      height:540px;
+      margin: 30px auto;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-top: 3px solid orange;
+      border-bottom: 3px solid orange;
+      border-radius: 10px;
+    }
+    #title{
+      position: relative;
+      width: 800px;
+      height: 100px;
+      top: 370px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #url{
+      text-align: center;
+      z-index: 100;
+      padding:
+    }
+    #insta_img, #map_img{
+      width:30px;
+      height:30px;
+    }
+    .img-text{
+      margin-top: -5px;
+      font-size: 12px;
+      color: orange;
+      font-weight: 600;
+    }
+    #title-header{
+      padding-bottom: 10px;
+    }
+
+    #second-title-header{
+      padding-bottom: 10px;
+      margin-top:-20px;
+    }
+    i{
+      width:16px;
+      height: 16px;
+      margin-right: 20px;
+    }
+    .explain{
+      margin: 30px 50px;
+    }
+    .menu-name{
+      width: 330px;
+    }
+    .bar div{
+      width: 300px;
+      height:0.5px;
+      border-top:0.7px dotted rgba(0,0,0,0.5);
+      vertical-align: 10%;
+    }
+    .price{
+      width:200px;
+      padding-left: 20px;
+    }
+    #main-footer{
+      border-top: 2px solid orange;
+      margin: 20px;
+      padding-top: 30px;
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <div id="images">
+        <img id="first_img" src="./west/제주카트클럽.jpg" alt="frist img" width="450px" height="250px">
+        <img id="second_img" src="./west/제주카트클럽4_1.jpg" alt="second img" width="450px" height="250px">
+        <img id="mid_img" src="./west/제주카트클럽4_2.jpg" alt="mid img" width="200px" height="200px">
+        <div id="title">
+          <h2  id="title-header">제주카트클럽</h2>
+          <p id="second-title-header">#제주도 #제주카트클럽 #액티비티 #아이</p>
+          <div id="url">
+            <div class="review">
+              <a href="https://www.instagram.com/explore/tags/제주카트클럽/">
+              <img id="insta_img"  src="../instagram.jpg" alt="insta.img" ></a>
+              <p class="img-text">insta</p>
+            </div>
+            <div class="review">
+              <a href="https://map.naver.com/?edid=1331884194&elng=b0c944888b5b5094266f781f18a566a8&elat=50250dd4f7e2e10d49ee6a84cdb14cf2&eText=%EC%A0%9C%EC%A3%BC%EC%B9%B4%ED%8A%B8%ED%81%B4%EB%9F%BD&eType=SITE_1">
+              <img id="map_img"  src="../map.jpg" alt="map.img" ></a>
+              <p class="img-text">map</p>
+            </div>
+         </div>
+       </div>
+      </div>
+
+      <div class="설명">
+        <div class="explain"><i class="far fa-clock"></i>매일 09:00 - 19:00 </div>
+          <div class="explain"><i class="fas fa-phone"></i>064-772-5080 </div>
+          <div class="explain"><i class="far fa-file-alt"></i>
+            <div style="width: 700px;margin-left:36px; margin-top:-20px;">
+              제주도 최초로 카트를 시작한 곳으로 알려져 있는 ‘제주카트클럽’은
+              자연경관이 빼어난 한림에 위치해 있어 애월, 협재 등 주변 관광지와 접근성이 좋다. <br>
+              정해진 코스 안에서 주행하기 때문에 면허가 없어도 체험이 가능하다. <br>
+              차체가 낮아 안전하기 때문에 안전교육을 받는다면 남녀노소 누구나 스피드를 즐길 수 있다.
+           </div>
+          </div>
+          <div class="explain"><i class="fas fa-home"></i><a href="http://jejucart.alltheway.kr/">http://jejucart.alltheway.kr/</a></div>
+          <div class="explain"><i class="fas fa-map-marked-alt"></i>
+              <div style="width: 700px;margin-left:36px; margin-top:-20px;">
+              제주특별자치도 제주시 한림읍 중산간서로 3853 <br>
+                [지번] 제주특별자치도 제주시 한림읍 월림리 341-2</div>
+         </div>
+      </div>
+      <footer id="main-footer">
+
+        <div class="jeju-sns">
+          <!-- <div class="sns">제주도 공식 SNS</div> -->
+          <img src="jeju_insta.png" alt="" onclick=location.href='https://www.instagram.com/special_jejudo/'>
+          <img src="jeju_post.png" alt="" onclick=location.href='https://post.naver.com/my.nhn?memberNo=23264882'>
+          <img src="jeju_youtube.png" alt="" onclick=location.href='https://www.youtube.com/user/happyjejudo/video'>
+        </div>
+        <a href="#">back to top</a>
+
+      </footer>
+    </div>
+  </body>
+</html>

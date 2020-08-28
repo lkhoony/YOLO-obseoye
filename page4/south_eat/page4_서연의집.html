@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>YOLO옵서예</title>
+    <style>
+    #title-header{
+      font-family: 'Gugi';
+      font-size: 28px;
+      color: #686868;
+    }
+    #second-title-header{
+      font-family: 'Nanum Pen Script';
+      font-size: 18px;
+    }
+    .explain{
+      font-family: 'Cute Font';
+      font-size: 22px;
+    }
+      body{
+        width: 1000px;
+        margin: 0px auto;
+        background-color: white;
+      }
+
+      #page-wrapper{
+        position: absolute;
+        background: white;
+        margin: 20px auto;
+        border-radius: 5px;
+        width: 1000px;
+      }
+
+    #first_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:100px;
+      z-index: 3;
+    }
+    #second_img{
+      position: absolute;
+      width:400px;
+      height: 250px;
+      top:60px; left:500px;
+      z-index: 3;
+    }
+    #mid_img{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 200px; left:393px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-radius: 100px;
+      border: 6px solid white;
+      z-index: 50;
+    }
+    .설명{
+      margin: 20px auto;
+      padding: 20px;
+      width:860px;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      }
+    .가게이름{
+      text-align: center;
+    }
+    .review{
+      display: inline-block;
+      margin:0 15px;
+
+    }
+    .image-title{
+      text-align: center;
+    }
+    #images{
+      width:900px;
+      height:540px;
+      margin: 30px auto;
+      box-shadow: 0 2px 6px rgba(100,100,100,0.3);
+      border-top: 3px solid orange;
+      border-bottom: 3px solid orange;
+      border-radius: 10px;
+    }
+    #title{
+      position: relative;
+      width: 800px;
+      height: 100px;
+      top: 370px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #url{
+      text-align: center;
+      z-index: 100;
+      padding:
+    }
+    #insta_img, #map_img{
+      width:30px;
+      height:30px;
+    }
+    .img-text{
+      margin-top: -5px;
+      font-size: 12px;
+      color: orange;
+      font-weight: 600;
+    }
+    #title-header{
+      padding-bottom: 10px;
+    }
+
+    #second-title-header{
+      padding-bottom: 10px;
+      margin-top:-20px;
+    }
+    i{
+      width:16px;
+      height: 16px;
+      margin-right: 20px;
+    }
+
+    .explain{
+      margin: 30px 50px;
+    }
+    .menu-name{
+      width: 150px;
+    }
+    .bar div{
+      width: 300px;
+      height:0.5px;
+      border-top:0.7px dotted rgba(0,0,0,0.5);
+      vertical-align: 10%;
+    }
+    .price{
+      width:200px;
+      padding-left: 20px;
+    }
+
+    #main-footer{
+      border-top: 2px solid orange;
+      margin: 20px;
+      padding-top: 30px;
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <div id="images">
+        <img id="first_img" src="./south/서연의집4_2.jpg" alt="frist img" width="450px" height="250px">
+        <img id="second_img" src="./south/서연의집4_1.jpg" alt="second img" width="450px" height="250px">
+        <img id="mid_img" src="./south/서연의집.jpg" alt="mid img" width="200px" height="200px">
+        <div id="title">
+          <h2  id="title-header">서연의집</h2>
+          <p id="second-title-header">#제주도 #서연의집 #카페 #건축학개론 #서귀포</p>
+          <div id="url">
+            <div class="review">
+              <a href="https://www.instagram.com/tags/서연의집">
+              <img id="insta_img"  src="../instagram.jpg" alt="insta.img" ></a>
+              <p class="img-text">insta</p>
+            </div>
+            <div class="review">
+              <a href="https://map.naver.com/?eText=%EC%84%9C%EC%97%B0%EC%9D%98%EC%A7%91&elng=3f39c86e828d8a466daea395aa14b41e&eelat=0aaf8c78d4b92f99f28341560cda65c5&elat=0f5cf2f1f8987d525e26a37be9a3d9cd&eelng=089f9d6ebc6af2a03979b04e27ca5f50">
+              <img id="map_img"  src="../map.jpg" alt="map.img" ></a>
+              <p class="img-text">map</p>
+            </div>
+         </div>
+       </div>
+      </div>
+
+      <div class="설명">
+          <div class="explain"><i class="far fa-clock"></i>매일 10:00 - 21:00 연중무휴</div>
+          <div class="explain"><i class="fas fa-phone"></i>064-764-7894</div>
+          <div class="explain"><i class="far fa-file-alt"></i><div style="width: 700px;margin-left:36px; margin-top:-20px;">
+            카페 서연의 집은 제주 올레길 5코스 중간(제주특별자치도 서귀포시 남원읍 위미리)에 위치한 영화 건축학개론의 촬영지입니다. <br>
+            영화 건축학개론 제작진이 영화 속 추억의 흔적들을 보전하되 실제 ‘카페’로 활용할 수 있도록 고민을 더하여 건축한 새로운 공간으로
+            2013년 3월 오픈 이후 영화 팬들과 제주 관광객들의 발길이 꾸준히 이어지며 영화 컨텐츠와 제주도의 지역적 특색을 함께 향유할 수 있는 명소로 떠오르고 있습니다.
+          </div> </div>
+          <div class="explain"><i class="fas fa-utensils"></i>
+            <table style="margin-left:36px; margin-top:-20px;">
+              <tr>
+                <td class="menu-name">음료</td>
+                <td class="bar"><div></div></td>
+                <td class="price">3500~6500원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">납뜩이머핀</td>
+                <td class="bar"><div></div></td>
+                <td class="price">5500원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">서연의 브라우니</td>
+                <td class="bar"><div></div></td>
+                <td class="price">7000원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">그릴드치킨아바타</td>
+                <td class="bar"><div></div></td>
+                <td class="price">6500원</td>
+              </tr>
+              <tr>
+                <td class="menu-name">치즈케이크</td>
+                <td class="bar"><div></div></td>
+                <td class="price">6000원</td>
+              </tr>
+            </table>
+          </div>
+          <div class="explain" ><i class="fas fa-tv"></i>
+                 <span>공감특별한세상 396회</span></div>
+          <div class="explain"><i class="fas fa-map-marked-alt"></i>제주 서귀포시 남원읍 위미해안로 86 [지번]위미리 2975 </div>
+
+      </div>
+      <footer id="main-footer">
+
+        <div class="jeju-sns">
+          <!-- <div class="sns">제주도 공식 SNS</div> -->
+          <img src="jeju_insta.png" alt="" onclick=location.href='https://www.instagram.com/special_jejudo/'>
+          <img src="jeju_post.png" alt="" onclick=location.href='https://post.naver.com/my.nhn?memberNo=23264882'>
+          <img src="jeju_youtube.png" alt="" onclick=location.href='https://www.youtube.com/user/happyjejudo/video'>
+        </div>
+        <a href="#">back to top</a>
+
+      </footer>
+    </div>
+  </body>
+</html>
