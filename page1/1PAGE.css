@@ -351,23 +351,23 @@ article{
 }
 /* 풋터 이미지에는 참고 사이트들의 베너이미지가 배경이미지로 설정 될 것이기 때문에 위와 같이 설정해준다. */
 .footer-image:nth-child(1){
-  background-image: url('jeju_special.png');
+  background-image: url('/jeju_special.png');
 
 }
 .footer-image:nth-child(2){
-  background-image: url('jeju_tourism.png');
+  background-image: url('/jeju_tourism.png');
 
 }
 .footer-image:nth-child(3){
-  background-image: url('jeju_association.jpg');
+  background-image: url('/jeju_association.jpg');
 
 }
 .footer-image:nth-child(4){
-  background-image: url('jeju_acc.jpg');
+  background-image: url('/jeju_acc.jpg');
 
 }
 .footer-image:nth-child(5){
-  background-image: url('jeju_visit.png');
+  background-image: url('/jeju_visit.png');
 
 }
 /* 각각 이미지들을 설정해준다. */
