@@ -1,11 +1,10 @@
 # Yolo Obseoye
 
 Team project for Web Programming
+
 Open App : https://yolo-obseoye.herokuapp.com/
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![GitHub license](https://img.shields.io/github/license/lkhoony/YOLO-obseoye?style=plastic)](https://github.com/lkhoony/YOLO-obseoye)
 
 ## Introduction
 
